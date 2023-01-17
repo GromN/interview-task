@@ -1,5 +1,9 @@
 {
   "scripts": {
-    "cypress:open": "cypress open"
+    "start": "yarn cypress:open",
+    "cypress:open": "npx cypress open"
+  },
+  "dependencies": {
+    "cypress": "^12.3.0"
   }
 }
